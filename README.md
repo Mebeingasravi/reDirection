@@ -1,3 +1,23 @@
+A freelanced Tasks from CryptoExchange to reroute it's url baseed on device
+
+It Redirects the user to different URLs based on the type of operating system detected. Here's a breakdown of each case:
+
+If the operating system is "Windows," the code redirects the user to the URL 'https://platinx.exchange/' using window.location.replace().
+
+If the operating system is "Android," the code redirects the user to the Google Play Store URL for the PlatinX Exchange app with the package name 'com.platinx.exchange.flutter_platinx_exchange' and the language set to English.
+
+If the operating system is "iOS," the code redirects the user to the App Store URL for the PlatinX app with the app ID '1637866256' in the Indian App Store.
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
